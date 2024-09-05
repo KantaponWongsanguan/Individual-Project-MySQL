@@ -1,4 +1,4 @@
-# Individual MySQL Projects
+# MySQL Projects Portfolio
 
 This repository contains a collection of individual projects that demonstrate various data analysis and SQL skills using MySQL. Each project focuses on a different dataset and provides insights through data cleaning, transformation, and analysis.
 
