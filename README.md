@@ -49,14 +49,18 @@ Across these projects, several important recommendations and insights were deriv
 
 - **ActiveKids Sports Training School Database**: 
   - Standardizing operations through a centralized database improves efficiency and allows for more robust reporting on staff, customer behavior, and equipment management.
+    
 - **UniEnrol Database Query**:
   - Optimizing queries with `JOIN` and `GROUP BY` can improve performance and enable more meaningful insights into student and faculty interactions.
   - Effective query formulation ensures that business processes (like enrollment tracking) are reflected accurately in reports.
+    
 - **Layoff Analysis Project**:
   - Understanding industry-specific layoff patterns helps companies plan for better workforce management and strategic decision-making.
   - Regular analysis of layoffs over time can identify key trends and allow companies to react proactively.
+    
 - **Statistical Data Analysis**:
   - Hypothesis testing (ANOVA, regression) provides valuable insights into relationships between variables, allowing for better decision-making and prediction of outcomes.
+    
 - **Data Analyst Python Projects**:
   - Automating data cleaning and transformations improves efficiency in large-scale retail operations, providing clear insights into customer preferences and inventory needs.
   - Basket analysis and text mining can help businesses optimize marketing and product placement strategies.
@@ -65,6 +69,7 @@ Across these projects, several important recommendations and insights were deriv
 
 ## Technical Stack
 These projects utilized a range of technologies and tools, including:
+
 - **SQL**:
   - MySQL Workbench for database design, query formulation, and optimization.
   - SQL for data extraction, manipulation, and transformation.
