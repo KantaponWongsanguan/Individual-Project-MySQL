@@ -1,45 +1,79 @@
-# MySQL Projects Portfolio
+# Data Analyst & SQL Portfolio
 
-This repository contains a collection of individual projects that demonstrate various data analysis and SQL skills using MySQL. Each project focuses on a different dataset and provides insights through data cleaning, transformation, and analysis.
+## Project Summaries
 
-# Layoff Analysis Project
+### 1. **ActiveKids Sports Training School Database Project (CP2404 - Assignment 1)**
+- **Overview**: This project involves designing a database for the **ActiveKids Sports Training School** to centralize operations for multiple branches across Singapore. The database tracks staff, customers, children, training sessions, and equipment.
+- **Key Highlights**:
+  - Designed an ERD using MySQL Workbench.
+  - Applied normalization techniques to ensure data integrity.
+  - Developed reports for staff, equipment, and customer management.
+- **Technologies**: MySQL, MySQL Workbench.
 
-## Project Overview
-The Layoff Analysis Project focuses on examining a global layoffs dataset to uncover trends, patterns, and actionable insights that can guide strategic decision-making in workforce management. The project involves comprehensive data cleaning, exploratory data analysis (EDA), and visualization using SQL and related tools.
+### 2. **UniEnrol Database Query Project (CP2404 - Assignment 2)**
+- **Overview**: This project focuses on formulating SQL queries to retrieve specific information from the **UniEnrol Database**, which manages university enrollments, faculty, courses, and student registrations.
+- **Key Highlights**:
+  - Wrote 10 SQL queries to extract data, including student schedules, faculty details, and course offerings.
+  - Applied SQL operations such as `JOIN`, `GROUP BY`, and `FORMAT` to retrieve and manipulate data.
+  - Used MySQL Workbench for query formulation and execution.
+- **Technologies**: MySQL, SQL, MySQL Workbench.
 
-## Goals
-The objectives of this project are to:
-- Clean and standardize a global layoffs dataset to ensure data accuracy and integrity.
-- Perform exploratory data analysis to identify key trends, patterns, and outliers in the data.
-- Provide data-driven recommendations to improve workforce management strategies and support decision-making processes.
+### 3. **Statistical Data Analysis Project (CP2404 - Assignment)**
+- **Overview**: This project involves statistical analysis using Python to explore relationships within datasets, applying techniques like ANOVA, Chi-Squared tests, and regression analysis.
+- **Key Highlights**:
+  - Performed data cleaning, visualization, and hypothesis testing.
+  - Applied ANOVA to test group differences, Chi-Squared to check categorical associations, and regression for predicting outcomes.
+  - Utilized Python libraries for statistical computation and data visualization.
+- **Technologies**: Python, pandas, scipy, matplotlib.
 
-## Specific KPIs / Key Project Steps
-1. **Data Cleaning:**
-   - Remove duplicate records and handle missing values to maintain data integrity.
-   - Standardize data formats, such as converting date fields from text to datetime and normalizing industry names.
-   - Create a staging table to preserve raw data for reference while conducting transformations.
+### 4. **Layoff Analysis Project**
+- **Overview**: This project focuses on analyzing a global layoffs dataset to uncover trends and provide insights for workforce management. It includes data cleaning, exploratory data analysis (EDA), and visualizations to support decision-making.
+- **Key Highlights**:
+  - Cleaned and standardized the dataset to ensure data accuracy.
+  - Analyzed layoffs by company, industry, location, and time period to identify trends.
+  - Created visualizations to communicate key insights, such as peak periods and affected industries.
+- **Technologies**: SQL, Excel, Data Warehousing.
 
-2. **Exploratory Data Analysis:**
-   - Analyze layoffs by company, industry, location, and time period to identify high-impact trends and patterns.
-   - Calculate metrics such as the total number of layoffs, percentage laid off, and funds raised to assess the financial and operational impact.
-   - Develop rolling sums and trend analyses to visualize changes in layoffs over time.
+### 5. **Data Analyst Python Projects**
+- **Overview**: A collection of Python projects focused on data cleaning, transformation, and analysis for business decision-making, using the **Online Retail II** dataset.
+- **Key Highlights**:
+  - Cleaned and preprocessed retail transaction data for analysis.
+  - Performed one-hot encoding for basket analysis and applied text analysis on product descriptions.
+  - Provided insights into customer purchasing patterns for business strategy optimization.
+- **Technologies**: Python, pandas, numpy, MySQL Workbench, Weka (for association rule mining).
 
-3. **Data Transformation:**
-   - Optimize data storage and retrieval through data type conversion and standardization.
-   - Transform the data to facilitate deeper analysis, such as segmenting by year, month, or industry.
-
-4. **Visualization and Reporting:**
-   - Create clear and concise visualizations to communicate findings, including dashboards and reports that highlight key insights.
-   - Provide regular updates and ad hoc reports to stakeholders, such as HR and management teams.
+---
 
 ## Recommendations / Insights
-- **Trend Analysis:** Identified industries and locations most affected by layoffs, allowing for targeted workforce management strategies.
-- **Timing of Layoffs:** Highlighted peak periods for layoffs, enabling proactive planning and resource allocation.
-- **Data Quality Improvement:** Enhanced the dataset’s reliability and accuracy, leading to more informed decision-making.
-- **Strategic Insights:** Suggested areas for cost optimization and resource allocation based on identified patterns and trends.
+Across these projects, several important recommendations and insights were derived:
+
+- **ActiveKids Sports Training School Database**: 
+  - Standardizing operations through a centralized database improves efficiency and allows for more robust reporting on staff, customer behavior, and equipment management.
+- **UniEnrol Database Query**:
+  - Optimizing queries with `JOIN` and `GROUP BY` can improve performance and enable more meaningful insights into student and faculty interactions.
+  - Effective query formulation ensures that business processes (like enrollment tracking) are reflected accurately in reports.
+- **Layoff Analysis Project**:
+  - Understanding industry-specific layoff patterns helps companies plan for better workforce management and strategic decision-making.
+  - Regular analysis of layoffs over time can identify key trends and allow companies to react proactively.
+- **Statistical Data Analysis**:
+  - Hypothesis testing (ANOVA, regression) provides valuable insights into relationships between variables, allowing for better decision-making and prediction of outcomes.
+- **Data Analyst Python Projects**:
+  - Automating data cleaning and transformations improves efficiency in large-scale retail operations, providing clear insights into customer preferences and inventory needs.
+  - Basket analysis and text mining can help businesses optimize marketing and product placement strategies.
+
+---
 
 ## Technical Stack
-- **SQL:** Used for data cleaning, data transformation, and performing complex queries to analyze and visualize data trends.
-- **Excel:** Employed for initial data handling and developing basic visualizations and reports.
-- **Data Warehousing:** Applied best practices in data storage and retrieval to optimize performance and maintain data integrity.
+These projects utilized a range of technologies and tools, including:
+- **SQL**:
+  - MySQL Workbench for database design, query formulation, and optimization.
+  - SQL for data extraction, manipulation, and transformation.
+- **Python**:
+  - `pandas`, `numpy`, `scipy`, and `matplotlib` for data analysis, visualization, and statistical testing.
+  - `Weka` for association rule mining in the Data Analyst Python projects.
+- **Data Warehousing**:
+  - Techniques for optimizing data storage and retrieval to ensure performance and accuracy, especially in the Layoff Analysis project.
+- **Excel**:
+  - Used for data visualization and handling initial datasets before deeper analysis with SQL or Python.
 
+---
