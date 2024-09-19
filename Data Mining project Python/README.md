@@ -5,7 +5,7 @@ This portfolio showcases various Python projects completed during my time at Jam
 
 Additionally, the **Final Project Analysis** includes data mining and visualization performed using the **Waikato Environment for Knowledge Analysis (WEKA)**, demonstrating the application of Association Rule Mining (ARM) to provide strategic business insights.
  - [Weka.io](https://www.weka.io/)
- - [Analysis Report]()
+ - [Analysis Report](https://github.com/KantaponWongsanguan/Python-SQL-Data-Portfolio/blob/main/Data%20Mining%20project%20Python/CP3403_Final_Project_Group_11.pdf)
 
 ### Dataset Used
 - **Online Retail II Dataset**: This dataset contains transactions from a UK-based online retail store between 01/12/2009 and 09/12/2011.
